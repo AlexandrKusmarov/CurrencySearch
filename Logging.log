@@ -41,3 +41,65 @@ java.net.ProtocolException: Server redirected too many  times (20)
 	at java.net.URL.openStream(URL.java:1045)
 	at CurrencySearcher.getCurrencyListByParsing(CurrencySearcher.java:19)
 	at CurrencySearcher.main(CurrencySearcher.java:94)
+2019-08-05 17:02:39 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:02:40 ERROR CurrencySearcher:111 - Server redirected too many  times (20)
+java.net.ProtocolException: Server redirected too many  times (20)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1884)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.URL.openStream(URL.java:1045)
+	at CurrencySearcher.getCurrencyListByParsing(CurrencySearcher.java:19)
+	at CurrencySearcher.main(CurrencySearcher.java:94)
+2019-08-05 17:03:34 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:03:34 INFO  CurrencySearcher:28 - Start reading the xml page...
+2019-08-05 17:03:34 INFO  CurrencySearcher:61 - Reading completed!
+2019-08-05 17:03:34 DEBUG CurrencySearcher:95 - The list contains 34 currencies.
+2019-08-05 17:03:34 INFO  CurrencySearcher:69 - Enter getConvertListToSingleNominal() method.
+2019-08-05 17:03:34 INFO  CurrencySearcher:80 - Enter getCheapestCurrency() method.
+2019-08-05 17:03:34 DEBUG CurrencySearcher:99 - Самая дешевая валюта:  Узбекских сумов. Стоимость 1 номинала к рублю составляет: 0.007506270000000001 UZS
+2019-08-05 17:03:34 INFO  CurrencySearcher:85 - Enter getMostExpensiveCurrency() method.
+2019-08-05 17:03:34 DEBUG CurrencySearcher:105 - Самая дорогая валюта:  СДР (специальные права заимствования). Стоимость 1 номинала к рублю составляет: 89.3291 XDR
+2019-08-05 17:04:17 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:04:17 INFO  CurrencySearcher:28 - Start reading the xml page...
+2019-08-05 17:04:17 INFO  CurrencySearcher:61 - Reading completed!
+2019-08-05 17:04:17 DEBUG CurrencySearcher:95 - The list contains 34 currencies.
+2019-08-05 17:04:17 INFO  CurrencySearcher:69 - Enter getConvertListToSingleNominal() method.
+2019-08-05 17:04:17 INFO  CurrencySearcher:80 - Enter getCheapestCurrency() method.
+2019-08-05 17:04:17 DEBUG CurrencySearcher:99 - Самая дешевая валюта:  Узбекских сумов. Стоимость 1 номинала к рублю составляет: 0.007506270000000001 UZS
+2019-08-05 17:04:17 INFO  CurrencySearcher:85 - Enter getMostExpensiveCurrency() method.
+2019-08-05 17:04:17 DEBUG CurrencySearcher:105 - Самая дорогая валюта:  СДР (специальные права заимствования). Стоимость 1 номинала к рублю составляет: 89.3291 XDR
+2019-08-05 17:14:39 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:14:39 INFO  CurrencySearcher:28 - Start reading the xml page...
+2019-08-05 17:14:39 INFO  CurrencySearcher:61 - Reading completed!
+2019-08-05 17:14:39 DEBUG CurrencySearcher:95 - The list contains 34 currencies.
+2019-08-05 17:14:39 INFO  CurrencySearcher:69 - Enter getConvertListToSingleNominal() method.
+2019-08-05 17:14:39 INFO  CurrencySearcher:80 - Enter getCheapestCurrency() method.
+2019-08-05 17:14:39 DEBUG CurrencySearcher:99 - Самая дешевая валюта:  Узбекских сумов. Стоимость 1 номинала к рублю составляет: 0.007506270000000001 UZS
+2019-08-05 17:14:39 INFO  CurrencySearcher:85 - Enter getMostExpensiveCurrency() method.
+2019-08-05 17:14:39 DEBUG CurrencySearcher:105 - Самая дорогая валюта:  СДР (специальные права заимствования). Стоимость 1 номинала к рублю составляет: 89.3291 XDR
+2019-08-05 17:23:53 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:23:54 INFO  CurrencySearcher:28 - Start reading the xml page...
+2019-08-05 17:23:54 INFO  CurrencySearcher:61 - Reading completed!
+2019-08-05 17:23:54 DEBUG CurrencySearcher:95 - The list contains 34 currencies.
+2019-08-05 17:23:54 INFO  CurrencySearcher:69 - Enter getConvertListToSingleNominal() method.
+2019-08-05 17:23:54 INFO  CurrencySearcher:80 - Enter getCheapestCurrency() method.
+2019-08-05 17:23:54 DEBUG CurrencySearcher:99 - Самая дешевая валюта:  Узбекских сумов. Стоимость 1 номинала к рублю составляет: 0.007506270000000001 UZS
+2019-08-05 17:23:54 INFO  CurrencySearcher:85 - Enter getMostExpensiveCurrency() method.
+2019-08-05 17:23:54 DEBUG CurrencySearcher:105 - Самая дорогая валюта:  СДР (специальные права заимствования). Стоимость 1 номинала к рублю составляет: 89.3291 XDR
+2019-08-05 17:24:58 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:24:58 INFO  CurrencySearcher:28 - Start reading the xml page...
+2019-08-05 17:24:58 INFO  CurrencySearcher:61 - Reading completed!
+2019-08-05 17:24:58 DEBUG CurrencySearcher:95 - The list contains 34 currencies.
+2019-08-05 17:24:58 INFO  CurrencySearcher:69 - Enter getConvertListToSingleNominal() method.
+2019-08-05 17:24:58 INFO  CurrencySearcher:80 - Enter getCheapestCurrency() method.
+2019-08-05 17:24:58 DEBUG CurrencySearcher:99 - Самая дешевая валюта:  Узбекских сумов. Стоимость 1 0.007506270000000001 составляет: UZS 
+2019-08-05 17:24:58 INFO  CurrencySearcher:85 - Enter getMostExpensiveCurrency() method.
+2019-08-05 17:24:58 DEBUG CurrencySearcher:105 - Самая дорогая валюта:  СДР (специальные права заимствования). Стоимость 1 89.3291 составляет: XDR 
+2019-08-05 17:26:16 INFO  CurrencySearcher:17 - Enter getCurrencyListByParsing() method.
+2019-08-05 17:26:16 INFO  CurrencySearcher:28 - Start reading the xml page...
+2019-08-05 17:26:16 INFO  CurrencySearcher:61 - Reading completed!
+2019-08-05 17:26:16 DEBUG CurrencySearcher:95 - The list contains 34 currencies.
+2019-08-05 17:26:16 INFO  CurrencySearcher:69 - Enter getConvertListToSingleNominal() method.
+2019-08-05 17:26:16 INFO  CurrencySearcher:80 - Enter getCheapestCurrency() method.
+2019-08-05 17:26:16 DEBUG CurrencySearcher:99 - Самая дешевая валюта:  Узбекских сумов. Стоимость 1 UZS составляет: 0.007506270000000001 RUB
+2019-08-05 17:26:16 INFO  CurrencySearcher:85 - Enter getMostExpensiveCurrency() method.
+2019-08-05 17:26:16 DEBUG CurrencySearcher:105 - Самая дорогая валюта:  СДР (специальные права заимствования). Стоимость 1 XDR составляет: 89.3291 RUB

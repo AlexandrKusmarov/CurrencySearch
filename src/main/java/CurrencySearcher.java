@@ -96,15 +96,16 @@ public class CurrencySearcher {
             singleNominalList = currencySearcher.getConvertListToSingleNominal(originalList);
 
             Currency min = currencySearcher.getCheapestCurrency(singleNominalList);
-            logger.debug("Самая дешевая валюта:  {}. Стоимость 1 номинала к рублю составляет: {} {}",
-                    min.getName(),min.getValue(), min.getCharCode());
-            System.out.printf("Самая дешевая валюта:  %s. Стоимость 1 номинала к рублю составляет: %s %s", min.getName(),min.getValue(), min.getCharCode());
+            logger.debug("Самая дешевая валюта:  {}. Стоимость 1 {} составляет: {} RUB",
+                    min.getName(),min.getCharCode(), min.getValue());
+            System.out.printf("Самая дешевая валюта:  %s. Стоимость 1 %s составляет: %s RUB", min.getName(),min.getCharCode(),min.getValue());
             System.out.println();
 
             Currency max = currencySearcher.getMostExpensiveCurrency(singleNominalList);
-            logger.debug("Самая дорогая валюта:  {}. Стоимость 1 номинала к рублю составляет: {} {}",
-                    max.getName(),max.getValue(), max.getCharCode());
-            System.out.printf("Самая дорогая валюта:  %s. Стоимость 1 номинала к рублю составляет: %s %s", max.getName(),max.getValue(), max.getCharCode());
+            logger.debug("Самая дорогая валюта:  {}. Стоимость 1 {} составляет: {} RUB",
+                    max.getName(),max.getCharCode(),max.getValue());
+            System.out.printf("Самая дорогая валюта:  %s. Стоимость 1 %s составляет: %s RUB", max.getName(),max.getCharCode(),max.getValue());
+            System.out.println();
 
         } catch (IOException | XMLStreamException e) {
             e.printStackTrace();
